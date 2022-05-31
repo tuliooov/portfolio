@@ -15,7 +15,7 @@ export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Home | Tulio.Annotation</title>
+        <title>Home | Tulio Portfolio</title>
       </Head>
       <main className={styles.contentContainer}>
         <section className={styles.hero}>

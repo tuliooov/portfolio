@@ -5,7 +5,7 @@ export function Header(){
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContext}>
-                <img src="/images/logo.svg" alt="tulio.annotations" />
+                <img src="/images/logo.svg" alt="tulio_portfolio" />
                 <nav>
                     <a className={styles.active}>Home</a>
                     <a>Posts</a>
