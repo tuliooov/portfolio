@@ -41,12 +41,13 @@ export const getStaticProps: GetStaticProps = async () => {
     amount: new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: 'USD'
-    }).format(price.unit_amount / 100),
+    }).format(price.unit_amount! / 100)
   }
+
   return {
     props: {
       product
     },
-    revalidate: (60 * 60 * 24) * 1 // 1 day
+    revalidate: 60 * 60 * 24
   }
 }
