@@ -18,3 +18,6 @@ This page provides a quick reference to all of the Fauna Query Language function
 https://docs.fauna.com/fauna/current/api/fql/cheat_sheet
 
 
+#### Webhook
+O webhook, também conhecido como retorno de chamada web, é um método simples que facilita com que uma API forneça informações em tempo real sempre que um evento acontece. Em outras palavras, trata-se de um modo de receber dados entre dois sistemas de forma passiva, ou seja, sem realizar nenhuma ação.
+
